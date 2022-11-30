@@ -1,0 +1,65 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <Grid Width="400" Height="400" Margin="0,0,0,-16">
+        <Label Content="12" FontSize="60" Height="75" Width="70" Margin="0,0,330,325" Foreground="#FF737373"/>
+        <Label Content="2019" Margin="319,13,16,350" FontSize="25" Foreground="#FF737373"/>
+        <Label Content="Грудень" Margin="279,35,16,322" FontSize="25" Foreground="#FF737373"/>
+        <Button Background="Orange" Margin="0,80,0,315" BorderBrush="White"/>
+        <Button Background="Orange" Margin="0,97,0,298" BorderBrush="White"/>
+        <Label Content="Пн" Margin="15,77,360,298" Foreground="#FF737373"/>
+        <Label Content="Вт" Margin="70,77,305,298" Foreground="#FF737373"/>
+        <Label Content="Ср" Margin="125,77,250,298" Foreground="#FF737373"/>
+        <Label Content="Чт" Margin="180,77,195,298" Foreground="#FF737373"/>
+        <Label Content="Пт" Margin="235,77,140,298" Foreground="#FF737373"/>
+        <Label Content="Сб" Margin="290,77,85,298" Foreground="#FF737373"/>
+        <Label Content="Вс" Margin="345,77,30,298" Foreground="#FF737373"/>
+        <Button Content="25" Height="40" Margin="8,107,344,253" Background="Transparent" Foreground="#FFBFBDBD" BorderBrush="White" FontSize="17" />
+        <Button Content="26" Height="40" Margin="61,107,287,253" Background="Transparent" Foreground="#FFBFBDBD" BorderBrush="White" FontSize="17"/>
+        <Button Content="27" Height="40" Margin="118,107,232,253" Background="Transparent" Foreground="#FFBFBDBD" BorderBrush="White" FontSize="17"/>
+        <Button Content="28" Height="40" Margin="173,107,176,253" Background="Transparent" Foreground="#FFBFBDBD" BorderBrush="White" FontSize="17"/>
+        <Button Content="29" Height="40" Margin="229,107,122,253" Background="Transparent" Foreground="#FFBFBDBD" BorderBrush="White" FontSize="17"/>
+        <Button Content="30" Height="40" Margin="283,107,68,253" Background="Transparent" Foreground="#FFBFBDBD" BorderBrush="White" FontSize="17"/>
+        <Button Content="1" Height="40" Margin="335,107,16,253" Background="Orange" Foreground="white" BorderBrush="White" FontSize="17"/>
+        <Button Content="8" Height="40" Margin="335,147,16,213" Background="Orange" Foreground="white" BorderBrush="White" FontSize="17"/>
+        <Button Content="15" Height="40" Margin="335,187,16,173" Background="Orange" Foreground="white" BorderBrush="White" FontSize="17"/>
+        <Button Content="22" Height="40" Margin="335,227,16,133" Background="Orange" Foreground="white" BorderBrush="White" FontSize="17"/>
+        <Button Content="7" Height="40" Margin="283,147,0,213" Background="Orange" Foreground="white" BorderBrush="White" FontSize="17" HorizontalAlignment="Left" Width="49"/>
+        <Button Content="14" Height="40" Margin="283,187,0,173" Background="Orange" Foreground="white" BorderBrush="White" FontSize="17" HorizontalAlignment="Left" Width="49"/>
+        <Button Content="21" Height="40" Margin="283,227,0,133" Background="Orange" Foreground="white" BorderBrush="White" FontSize="17" HorizontalAlignment="Left" Width="49"/>
+        <Button Content="2" Height="40" Margin="8,147,343,213" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="3" Height="40" Margin="62,147,288,213" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="4" Height="40" Margin="118,147,232,213" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="5" Height="40" Margin="176,147,175,213" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="6" Height="40" Margin="229,147,122,213" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="9" Height="40" Margin="8,187,343,173" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="10" Height="40" Margin="62,187,288,173" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="11" Height="40" Margin="118,187,232,173" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="12" Height="40" Margin="176,187,175,173" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="13" Height="40" Margin="229,187,122,173" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49"/>
+        <Button Content="16" Height="40" Margin="8,227,343,133" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="17" Height="40" Margin="62,227,288,133" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="18" Height="40" Margin="118,227,232,133" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="19" Height="40" Margin="176,227,175,133" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="20" Height="40" Margin="229,227,122,133" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="23" Height="40" Margin="8,267,343,93" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="24" Height="40" Margin="62,267,288,93" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="25" Height="40" Margin="118,267,232,93" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="26" Height="40" Margin="176,267,175,93" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="27" Height="40" Margin="229,267,122,93" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49"/>
+        <Button Content="29" Height="40" Margin="335,267,16,93" Background="Orange" Foreground="white" BorderBrush="White" FontSize="17"/>
+        <Button Content="28" Height="40" Margin="283,267,0,93" Background="Orange" Foreground="white" BorderBrush="White" FontSize="17" HorizontalAlignment="Left" Width="49"/>
+        <Button Content="30" Height="40" Margin="8,307,343,53" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="31" Height="40" Margin="62,307,288,53" Background="Transparent" Foreground="Black" BorderBrush="White" FontSize="17" Width="49" />
+        <Button Content="1" Height="40" Margin="114,307,238,53" Background="Transparent" Foreground="#FFBFBDBD" BorderBrush="White" FontSize="17" />
+        <Button Content="2" Height="40" Margin="167,307,181,53" Background="Transparent" Foreground="#FFBFBDBD" BorderBrush="White" FontSize="17"/>
+        <Button Content="3" Height="40" Margin="224,307,126,53" Background="Transparent" Foreground="#FFBFBDBD" BorderBrush="White" FontSize="17"/>
+        <Button Content="4" Height="40" Margin="279,307,70,53" Background="Transparent" Foreground="#FFBFBDBD" BorderBrush="White" FontSize="17"/>
+        <Button Content="5" Height="40" Margin="335,307,16,53" Background="Transparent" Foreground="#FFBFBDBD" BorderBrush="White" FontSize="17"/>
+    </Grid>
+</Window>
